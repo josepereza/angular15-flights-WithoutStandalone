@@ -1,0 +1,17 @@
+:host {
+  flex: 1 1 25%;
+}
+
+.box {
+  background: #ffffff;
+  border: 1px solid #d6dee4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 150px;
+  padding: 10px;
+  .flight-info {
+    span.bolded {
+      font-weight: 700;
+    }
+  }
+}
